@@ -1,0 +1,53 @@
+{
+  "module": "Log",
+  "version": "3.4.33",
+  "omeka_min_version": "4.0.0",
+  "tables": {
+    "setting": [
+      {
+        "id": "log_archive_compress",
+        "value": "1"
+      },
+      {
+        "id": "log_archive_days",
+        "value": "90"
+      },
+      {
+        "id": "log_archive_delete",
+        "value": "1"
+      },
+      {
+        "id": "log_archive_format",
+        "value": "tsv"
+      },
+      {
+        "id": "log_archive_include_id",
+        "value": "0"
+      },
+      {
+        "id": "log_archive_references",
+        "value": "[]"
+      },
+      {
+        "id": "log_archive_severity_max",
+        "value": ""
+      },
+      {
+        "id": "log_archive_store",
+        "value": "0"
+      },
+      {
+        "id": "log_archive_translate",
+        "value": "1"
+      },
+      {
+        "id": "log_cron_days",
+        "value": "7"
+      },
+      {
+        "id": "log_cron_last",
+        "value": 1771509086
+      }
+    ]
+  }
+}
