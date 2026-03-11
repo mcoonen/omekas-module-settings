@@ -17,3 +17,7 @@ INSERT INTO setting (id, value) VALUES ('mirador_annotation_endpoint', 'http://l
 INSERT INTO site_setting (site_id, id, value) VALUES (1, 'mirador_plugins', '["annotations","dl","image-tools","ocr-helper","share"]') ON DUPLICATE KEY UPDATE value = '["annotations","dl","image-tools","ocr-helper","share"]';
 ```
 3. Copy-paste the generated SQL commands into your database management tool (e.g., phpMyAdmin, MySQL command line, etc.) to execute them and apply the settings to your Omeka S installation.
+
+
+## TODO
+- [] Think about an elegant, scalable, less-hardcoded method for jq-SQL-generation for modules with custom tables, such as BulkExport (table `bulk_exporter`), AdvancedSearch (tables `search_config`, `search_engine`, `search_suggester`), SearchSolr (tables `solr_core`, `solr_map`) etc.

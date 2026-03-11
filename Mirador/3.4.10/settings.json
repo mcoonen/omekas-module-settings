@@ -19,6 +19,7 @@
         "id": "mirador_plugins",
         "value": "[\"annotations\",\"dl\",\"image-tools\",\"ocr-helper\",\"share\"]"
       }
-    ]
+    ],
+    "user_setting": []
   }
 }
