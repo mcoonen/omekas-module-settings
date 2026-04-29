@@ -20,4 +20,4 @@ INSERT INTO site_setting (site_id, id, value) VALUES (1, 'mirador_plugins', '["a
 
 
 ## TODO
-- [] Think about an elegant, scalable, less-hardcoded method for jq-SQL-generation for modules with custom tables, such as BulkExport (table `bulk_exporter`), AdvancedSearch (tables `search_config`, `search_engine`, `search_suggester`), SearchSolr (tables `solr_core`, `solr_map`) etc.
+- [ ] Think about an elegant, scalable, less-hardcoded method for jq-SQL-generation for modules with custom tables, such as BulkExport (table `bulk_exporter`), AdvancedSearch (tables `search_config`, `search_engine`, `search_suggester`), SearchSolr (tables `solr_core`, `solr_map`) etc.
